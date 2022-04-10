@@ -1,0 +1,12 @@
+C:\Users\Administrator\source\repos\VisaInterviewUS\VisaInterviewUS\bin\Debug\VisaInterviewUS.exe.config
+C:\Users\Administrator\source\repos\VisaInterviewUS\VisaInterviewUS\bin\Debug\VisaInterviewUS.exe
+C:\Users\Administrator\source\repos\VisaInterviewUS\VisaInterviewUS\bin\Debug\VisaInterviewUS.pdb
+C:\Users\Administrator\source\repos\VisaInterviewUS\VisaInterviewUS\obj\Debug\VisaInterviewUS.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\VisaInterviewUS\VisaInterviewUS\obj\Debug\Interop.SpeechLib.dll
+C:\Users\Administrator\source\repos\VisaInterviewUS\VisaInterviewUS\obj\Debug\VisaInterviewUS.csproj.ResolveComReference.cache
+C:\Users\Administrator\source\repos\VisaInterviewUS\VisaInterviewUS\obj\Debug\VisaInterviewUS.Properties.Resources.resources
+C:\Users\Administrator\source\repos\VisaInterviewUS\VisaInterviewUS\obj\Debug\VisaInterviewUS.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\VisaInterviewUS\VisaInterviewUS\obj\Debug\VisaInterviewUS.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\VisaInterviewUS\VisaInterviewUS\obj\Debug\VisaInterviewUS.exe
+C:\Users\Administrator\source\repos\VisaInterviewUS\VisaInterviewUS\obj\Debug\VisaInterviewUS.pdb
+C:\Users\Administrator\source\repos\VisaInterviewUS\VisaInterviewUS\obj\Debug\VisaInterviewUS.app.resources
