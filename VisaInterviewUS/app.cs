@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 using SpeechLib;
 
@@ -115,8 +116,10 @@ namespace VisaInterviewUS
             InitializeComponent();
         }
 
-        private void playbtn_Click(object sender, EventArgs e)
+        private async void playbtn_Click(object sender, EventArgs e)
         {
+            playbtn.Enabled = false;
+
             if (Question.AskedQuestions.Length == 0) return;
             if (Question.AskedQuestions.Length == 1) playbtn.Visible = false;
             
@@ -124,7 +127,9 @@ namespace VisaInterviewUS
             questionlbl.Refresh();
 
             SpVoice spvoice = new SpVoice();
-            spvoice.Speak(questionlbl.Text.Substring(questionlbl.Text.IndexOf(" ") + 1));
+            await Task.Run(() => spvoice.Speak(questionlbl.Text.Substring(questionlbl.Text.IndexOf(" ") + 1)));
+
+            playbtn.Enabled = true;
         }
 
         private void addquestbtn_Click(object sender, EventArgs e)
